@@ -65,7 +65,7 @@ public class Display extends JPanel implements ActionListener {
 			}
 
 			updateDisplays();
-		} catch (NumberFormatException nfe) {
+		} catch (Exception nfe) {
 			result = "Incorrectly formatted number";
 			updateDisplays();
 		}
